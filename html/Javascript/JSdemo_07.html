@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function account(){
+            alert('Account created');
+        }
+    </script>
+	
+	<title> Sign up page</title>
+	<link rel="stylesheet" href="JSdemo_07.css">
+</head>
+<body>
+ <form action="">
+                <label for="first">
+                    Name:
+                </label>
+                <input type="text" id="first" name="first" 
+                    placeholder="Enter your name" required>
+
+                <label for="email">
+                    Email:
+                </label>
+                <input type="email" id="email" name="email" 
+                    placeholder="Enter your email" required>
+                <label for="mobile number">
+                    Password:
+                </label>
+                <input type="Password" id="Password" name="Password" 
+                    placeholder="Enter your Password" required>
+
+                     <button class = "btn btn-success">Create account</button>
+                     <div class = "dropdown">
+                <select>
+                    <option>--- select city ---</option>
+                    <option>Warangal</option>
+                    <option>Hyderabad</option>
+                    <option>Mancherial</option>
+                    <option>Vizag</option>
+                    <option>Guntur</option>
+                    <option>Nellore</option>
+                    <option>Karimnagar</option>
+                    <option>Kadapa</option>
+                    <option>Kakinada</option>
+                </select>
+                <select id = "Tourist Place Select">
+                    <option>--- select Tourist Place ---</option>
+                    <option>Warngal Tourist Place</option>
+                    <option>Hyderabad Tourist Place</option>
+                    <option>Mancherial Tourist Place </option>
+                    <option>Vizag Tourist Place</option>
+                    <option>Guntur Tourist Place</option>
+                    <option>Nellore Tourist Place </option>
+                    <option>Karimnagar Tourist Place</option>
+                    <option>Kadapa Tourist Place</option>
+                    <option>Kakinada Tourist Place</option>
+                </select>
+            </div>
+            <button type="button" 
+            onclick="account()" 
+            style="margin-right:100%;">
+            submit
+    </button>
+ 
+</body>
+</html>
